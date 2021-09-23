@@ -1,0 +1,21 @@
+import React from 'react';
+import Layout from '../components/layout';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHandshake } from '@fortawesome/free-solid-svg-icons';
+import { GenericH2, GenericParaAbout, Shake } from '../styles/IndexStyles';
+
+const demo = () => (
+    <Layout>
+        <GenericH2 none dark some style={{ textAlign: 'center', padding: '3rem', color: 'green' }}>Thank You!</GenericH2>
+        <GenericParaAbout >
+            <Shake>
+                <FontAwesomeIcon icon={faHandshake} style={{textAlign: 'center', color: 'orange'}} size='10x'/>
+            </Shake>
+        </GenericParaAbout>
+        <GenericParaAbout lessSize grey>
+            Thank you for taking you time. <br />
+            This a sample showcase.
+        </GenericParaAbout>
+    </Layout>
+)
+export default demo;
