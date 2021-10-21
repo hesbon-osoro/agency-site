@@ -13,8 +13,10 @@ const demo = () => (
             </Shake>
         </GenericParaAbout>
         <GenericParaAbout lessSize grey>
+        <p style={{color: 'green', display: 'block', fontSize: '24px', textTransform: 'uppercase', textAlign: 'center'}}>            
             Thank you for taking you time. <br />
             This a sample showcase.  
+        </p>
 
         </GenericParaAbout>
     </Layout>
