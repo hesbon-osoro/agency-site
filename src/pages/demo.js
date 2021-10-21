@@ -14,7 +14,8 @@ const demo = () => (
         </GenericParaAbout>
         <GenericParaAbout lessSize grey>
             Thank you for taking you time. <br />
-            This a sample showcase.
+            This a sample showcase.  
+
         </GenericParaAbout>
     </Layout>
 )

@@ -3,9 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faFacebook, faInstagram, faLinkedin, faYoutube, faPinterest } from '@fortawesome/free-brands-svg-icons'
 import { Header, Footer, GenericH2, GenericPara } from '../styles/IndexStyles';
 import { Link } from 'gatsby';
-import favicon from '../images/joshua-aragon-FGXqbqbGt5o-unsplash.jpg'
+import favicon from '../images/agency-site.png'
 import Helmet from 'react-helmet';
-
 
 
 const Layout = ({ children }) => (

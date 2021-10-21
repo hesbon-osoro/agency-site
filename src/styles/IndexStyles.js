@@ -2,8 +2,11 @@ import styled, { keyframes } from "styled-components";
 import banner from '../images/Apple1.jpg';
 import different from '../images/imac-1999636_1920.png';
 import arrow from '../images/arrow.svg';
-import { bounce, shake } from 'react-animations';
+import { bounce, shake, fadeIn } from 'react-animations';
 
+const Warn = styled.div`
+    animation: .2s 10 ease ${keyframes `${fadeIn}`}
+`
 const Love = styled.div`
     animation: 2s 3 ${keyframes `${bounce}`};
 `;
@@ -322,5 +325,6 @@ export {
     GenericH3, 
     Works,
     Love,
-    Shake
+    Shake,
+    Warn
 };

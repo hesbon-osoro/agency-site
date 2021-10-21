@@ -68,6 +68,10 @@ class IndexPage extends Component {
             ❝Most good programmers do programming not because they expect to get paid,<br /> but because it's fun to program.❞
           </GenericPara>
           <h5>~ Linus Torvalds</h5>
+          <GenericPara lessSize grey>
+            ❝It's really clear that the most precious resource we all have is Time.❞
+          </GenericPara>
+          <h5>~ Steve Jobs</h5>
         </div>
         <span>
           <FontAwesomeIcon 
