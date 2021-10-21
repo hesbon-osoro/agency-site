@@ -1,5 +1,9 @@
 [![agency-site.png](https://i.postimg.cc/k5GrbsFd/agency-site.png)](https://postimg.cc/CR36yjQv)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27281870-c8dc-4b86-8f34-1b59a810cdce/deploy-status)](https://app.netlify.com/sites/agency-site-hb/deploys)
+
+This is a Landing page site made in Javascript(React and Gatsby). <br />
+It is only focused on frontend
  
 <!--START_SECTION:waka-->
 <!--END_SECTION:waka-->
